@@ -1,0 +1,6 @@
+---
+roles:
+- src: git@github.com:agilecontent/agiletv-systems-role-users.git
+  scm: git
+  version: main
+  name: agiletv-systems-role-users

@@ -1,0 +1,47 @@
+agile_users:
+  - name: agile
+    uid: 700
+    groups: docker
+    ssh_pub_key: no_key  
+  - name: deployer
+    uid: 21001
+    groups: docker
+    ssh_pub_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDTFXvtJGmRY9IPVWSVwvXUq6sLKnh7vXMEoiPs2aolTosvpXtaHtSe2R47iVgRW6cZyEmum+uLSKX13246L6FsiX/Bx54UywZJS6gdy4Ct6Ly8VEDHuVTxFz4iX0hUxI5R1kGLDAFLDEqPJdgCWweodzdKlo/hAfed+JUx/pm/CVV+taUAf2Wr2aHom+bvO/RaGPAsjeqhwVYpSb72BBtH85GRIcw7loNe+nf5Wz7vs3Iast4xBm7o50nLJtFsDTVFoPPddAmmB0nUuzuUUGCu/+DttPC51ANgV5nougcr7J9pXCQFxDDLWMnCWGGd9UXmSFpkANGeTlBaZlY5emHgYS9pW6dRTuXb5+1uVkWOXFr73I2TVM0qaeYk/N3bizjd9TBvvePvU8oyBFes6ptL43xH9gjAm47rSsmXIbNuyMQ4YEP21u4vnoEhnokJK5K45bqKmOZ/Otk0xCJbAu759G+3TQkCt7FEYwg5xGvbaIhOL8v2vMAd9Sx1MWYgYr60Dt5FAKTwShX/eDHt8CIEeXdvtdCmnbVabTWFmf9Q+iHFVM6C9AfvcDHjyG2CJEf8w+mOXl5Snr1J7KH8Gt5Jzt6ngazXcVbibgMpC+eYq96dQqLnNolAEX+e/w3ZlJsNCkYzpxGopqGOuDaC05Q9PZhF1dGGWMq8ZsG/M9uieQ== deployer@latam
+  - name: ivan.villalba
+    uid: 3001
+    groups: sudo
+    ssh_pub_key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJCiKNYT74XLQf+yJLCzbxuTo6eZVewk7fcDJQv8rNlp ivan@ES2024-016-1
+  - name: enrique.ferrero
+    uid: 3002
+    groups: sudo
+    ssh_pub_key: | 
+      ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICujXqjv3PI0IDfLMpUD1g/xTqpaU6dYAqxlfVkQ3EXO eferrero@efpdebian
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5s9gBeydID/i/+yDHxbR0f/7gFrRWo6U8mEiNOCqLXkn+22OKQCuCnd6OorjN1IKPOwLSMu3EU+kxpOo/o1PqXFFz45KjNlYXFILKoGF83thoqnZMC27GQzTf7BLdxLv9w3wMtoCWB54AdSfdCJjOXVBkB3uz1qlpN0XIwCZLvBcp1iCSki9srEQlaI3CbSt0+QRrocOhIjgkprVgBUfD3c9M8beW7GTqyMIHqeun66heNmz09H2/VfUHEmTheaQcKIQVgbQhsedY28NYSBKS1hyNhGJWfjKQeyIx90cRy/YCc6UV5rLnbKmpW9FiO8sEdQdwSBcF1skGLcqPTX9b+RgjznS8zL9BB9PcKK1vzoNe0JGYki97hK1ZWQoCjDhr40t8kfwbs7dS8dlUPQEfIQeFYI26iYjZfHZNZLYf/2E3X0G0y1MY6g75CRfq8a739bhwMp6G8/l011oBwfc9n5F9PWLiqHvLn9uUKHZuzlufhrIlFWOmhW/i4tElB3iBGaOq/Ho3l9DnVMqca2kQg+GOc3NGH+eieH89DjwgC9MyzbO9QqtyP6k+OX+R3OVbxGneWMC/PW3FxdZ9dMC91Ya3/HpjQt0KLdoUahH1w0LlsKsULrqNUnbSzdYqkw8Q6kELQ4pWVrr4GUYVnZPfkQU/1Y6JfAUaFUwJbCpUsQ== eferrero@efpdebian
+  - name: pablo.aguinagalde
+    uid: 3003
+    groups: sudo
+    ssh_pub_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC629YXAJPw8h271qHaj+D3gsveMN4KHlG1zf7t957SEqNEc7BumCTLqTwvV1UKB64FWp2nYNzEgAEVxsYo34JB78acyR8PILdniUS01QmYQuP0JUGqdqntCJpDm0pWXaqHAeE0a5rXWKDY5z8IdHt4+G2OZa8qV/6Xelw1ulUJcwPNHrECoQkKOvbYjD5sQrt0BVGPwqCQXdf1DblkmI21mtecxeg4hBAU/BaVecRrESmuKu5jmiDKU3ANfIfVoGOMBwRwTpuXBJj9YwjjS5e2MI3Al4avxy4dy85pd5k7B/DykO7NBeVsfNwXdUp7l4qLXs5NGKiM//Om09kc+p4trA6Gg1lmncOYWpbmSmklf0kkH65f4M3tuTtmkGtCta+MxnC1T5ON/1wXUrmnx8UtGSJviJHbalsJQAKxCXZl3lHCaRiNAPyTXUj7tmWmdEnsfH4D8ZEUEos+0UN97DHqxqdkVT91WlUZyT8NxjyNt0a5JdxYXrBzadDN3azGJlE= paguinagalde@covid19.local
+  - name: matias.bonke
+    uid: 3004
+    groups: sudo
+    ssh_pub_key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA8jimOV6lY21Krng/5jk7SSQEswVrmgU88m+mExx7t2 mbonke@bender
+  - name: javier.deposada
+    uid: 3005
+    groups: sudo
+    ssh_pub_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5FwIipOru7LlPpaphIhO4eoKspkXbKdvO5xF9OKetIPfapQV3zK1Wt5SeSeN8kTVHTNp21dslOXvp77YoXFnoOGq1SXj57KF7INE64FqMVa3PY3ba9cC3vcFAxIixN2qk+WPN42MSB1QS6fwPT2n0z98a8GkzTy35wmkugmSs/YFXgdKQKoZy3+DHyEdb0mZBoYikVILL19W6pjDv7CI4jy5nroaPAT1RXxQsECX8G310+U9xtEIXMxGUSATA6XSy1RdYnmgXV3v61gms4VJyynbQSuXoLGUbLEKKHrcB4qdKEk/1jB/4dDBI4t993vrIQeVfeLJq69gZKrVkTKwl javier.deposada
+  - name: oscar.alba
+    uid: 3006
+    groups: sudo
+    ssh_pub_key: ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAw+onS6ZhNwIGRpWtjQSHqwtg/g3rqx72/ViTBXTgAUdRyeymT45SWzxwU5yM0T3EW+On9CL6a5I7qW/urxlOxZ17MiY9e+47s9U6JSX/wY3cKAR5b4Ot6DCQeDmKb80BuwYSE+vjjC3mNdmMFDOC0O0kUL6P/VvVCRzMejAUE00H7M6oynsFwCTNtdV32kWHPkBbiuKBgE4kDg9u/z9XGBg34SRA1vN38R1aLKaPC5zT3ec0rkOInEsS8NpzrLOWkTLcf6RbQSDIuf381j/96c2O5JPOwp6Erbs8iVlwRUcrWzYUmNjSar102MdjJrMrCZBipSQGf/BRUc6kOOYt3w== Oscar Alba
+  - name: jenkins
+    uid: 2007
+    groups: sudo
+    ssh_pub_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9BoJhj/alV0+Ej741xbAOWYvU4uc+i84DR2SPK5b/vh6L2tm7OI4hN0pmy0iZdXGBlTcTjDNgUOTBJ27ehzvILbeAPan8qYcfc2QIeomCeatmOJdCmLyqh13CA7SkgpMWYiA82d0NSJpvP5Du+XC8dBrTIXUiwcUjeiT+l8jdFkN2g4b+uawHUOYPYIiLV6BBfxOkSHKv3TQvfadR19k5jHH0y45ylZOCPyPrfAWNO9BsnJTT6kIwvNffBXDTGLzTgMkVK5Y73Fclshqg6F73j1f8JIXsDVuDkyDBgNmoMpA1YTbHOHb6fcW1xH9psYRioQppBCfoQtq+mzri+PC21dEFHML7IpFSVXZC+GraxYWRsvcqptVPFV/oXrQF1JcG3G7oTFZ/NebmsCFUqU2s0sLfMsvrNR99PI7/9T7drUVIEc2brR+TMQWypaqdhBvXh4v84LAwwv6zWwaUJwFifIL5Dadj76LCPUdmA14DgaBABNvfN7KPOaf+WhDTwT8d1Digpf/QWfGlKpge3oRYUBQ0DkPM/xdoUphMhvSMR/PWEo36HpCBnOHAnKdn7R6XQHeAeSV3mxpcXA6BizAiANUOsFiWNbnX3wL58VqenqbjzYN3Xyf4YATuvHr3RHDtBJ8cEU/G31A4x5SB84n7gQL8bYzLANemvFQEAiNK/Q== sistemas+jenkins@agilecontent.com
+  - name: alberto.ordax
+    uid: 3007
+    groups: sudo
+    ssh_pub_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrDRr9kVGB8OWLj5piKbPhGE5ikXP2HfTdEPG4/XRi0p+UhdF9BivuBt2YyYjqLzo9Iq833XHanlRUFFK6kwX53FH3aQZII0dxsKf1zeW8cv8/rLzYoERNeGFL+iFhgjoaUFKlgDtpsfZ9HrIMVwXpBR6QLGxe4/rRe3fmV1Xs/2IVb/HW5B5Io+K2m13KBp1IxOiFMjRVykE9Q+OBD2C5AhhaQZGGpFMVxtRSIEqNbImnG+pIdOBE0bm6G7g0MUPZwunNYUX1bfMdmpNFcuUz9+GqNccSkY9MRkKe3gsirLt9v5pM15LfL399EcwjZw9rtESoQkKMi48+mO78FWwT alberto.ordax@agilecontent.com
+  - name: alexander.vantilburg
+    uid: 3008
+    groups: sudo
+    ssh_pub_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/wtVQr79uWubSeBp8r51LGSh4xDcXvjB4cVJCL080tQvuhtb+X8ZUqDyE+FBNOjL1si8kDfauvqqWbetd/rotm8t0Xd8J5kSsIxx55DZUGTO5gpnc+gQFnxX2TWtFXsgjdioQvdEsyHRCHtA3kdXCS8K5+MpZ5XwyLgWKShaBSCDfiV5Iikw1WZWE8HpHPYYHKRVa0hdSatwjScGrCUosec12br4pL2Bpwde+MQa2A2OvQ6/HaR7yJRd4nMT64dpaGMO4wQ2KpCf0BoD4oTi9Mw65PJiCOZKB5tgBcBMA3ec3vM4B0T0MiyRjx0awhDcRhzfVwTt2cv62bc7DwCm5 alexka@localhost
