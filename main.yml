@@ -9,4 +9,4 @@
     ansible_diff: true
   roles:
     - name: agiletv-systems-role-users
-      tags: role-user
+      tags: role-users

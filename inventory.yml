@@ -4,8 +4,9 @@ all:
       hosts:
         eqmd2-pve-05.agile.int:
           ansible_host: 192.168.107.44
-        eqmd2-pve-20.agile.int:
-          ansible_host: 192.168.107.59
-        eqmd2-pve-21.agile.int:
-          ansible_host: 192.168.107.60
-        
+#       eqmd2-pve-20.agile.int:
+#         ansible_host: 192.168.107.59
+#       eqmd2-pve-21.agile.int:
+#         ansible_host: 192.168.107.60
+
+

@@ -1,4 +1,4 @@
-agile_users:
+agile_admin_users:
   - name: agile
     uid: 700
     groups: docker
@@ -45,3 +45,7 @@ agile_users:
     uid: 3008
     groups: sudo
     ssh_pub_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/wtVQr79uWubSeBp8r51LGSh4xDcXvjB4cVJCL080tQvuhtb+X8ZUqDyE+FBNOjL1si8kDfauvqqWbetd/rotm8t0Xd8J5kSsIxx55DZUGTO5gpnc+gQFnxX2TWtFXsgjdioQvdEsyHRCHtA3kdXCS8K5+MpZ5XwyLgWKShaBSCDfiV5Iikw1WZWE8HpHPYYHKRVa0hdSatwjScGrCUosec12br4pL2Bpwde+MQa2A2OvQ6/HaR7yJRd4nMT64dpaGMO4wQ2KpCf0BoD4oTi9Mw65PJiCOZKB5tgBcBMA3ec3vM4B0T0MiyRjx0awhDcRhzfVwTt2cv62bc7DwCm5 alexka@localhost
+  - name: jeremias.guerrero
+    uid: 3009
+    groups: sudo
+    ssh_pub_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCcUMV4dqzKv7WF0g90urwHHi+pH9M74u/LrX3ZfvNNoF7Z979Jkx+ym2iTZWIuw9kp02xkF0a9FZ1cmrwMeFFHZiKlzDSsetu7vr4rxeK93F+5y8vpKRDlTjob3cMVq92YqKnWL3R1v9olqZMSBXK54U2OwK/PDAO6PPPvUO7RcBHjjEPbW31AsYSfTV7yQYThmaU2f7ucUXU8iP3oIFw838pr9uvDlw59rYFBjc9Tr/TwkmAnKdhFW4aruXbFi/R37rUhR7DfXxPVgem4xTTjgFQ/jzYfvrRryRlLRyITaM0Okqik8WmXH25D35a6dukBe3t/Sho+kOTRKUwtnUxVKArYGvIksLXVv5tMzaLgY29En632HrqdfgsnIANdfjRd5dbV45LriitxI56OgSyw6xjI0FFC9+qCAbla3L9KLaIbE2Dz1EWbWk5+QgaCeEUXXVk/wxtTJKIsEMKjpa4/94Dx1HGl7KoJ1o7NRi/ZdsVLbqN6YPpdlg2IJWbIn6IQ0Kgb/wLRbqQYvHsu5bsI6xqVGPSnmzlGFgCKQkDePaFZ5lgwasVtT86t+xlVqbFYGLjNINLVndheTn5l+qX+5eTMZ5SAmzCZevVwOb2MyU7LtIavOl/XmvtSuR60odDms5wpx2EWfdpzCQTQu/t5+osufSoEt/aH/LyZorNCxw==
